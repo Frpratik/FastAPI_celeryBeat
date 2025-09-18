@@ -18,7 +18,3 @@ celery.conf.beat_schedule = {
     }
 }
 celery.conf.timezone = "UTC"
-
-celery_log = logging.getLogger("celery")
-celery_log.handlers = logger.handlers
-celery_log.setLevel(logger.level)
